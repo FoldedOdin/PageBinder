@@ -1,0 +1,7 @@
+dataset/
+Htm
+temp_pdfs/
+__pycache__/
+venv/
+*.pyc
+*.pdf
