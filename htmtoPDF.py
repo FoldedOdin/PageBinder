@@ -42,9 +42,8 @@ def read_links_from_file(filename):
     
     print(f"Found {len(links)} link(s) in '{filename}'.")
     return links
-
 def convert_urls_to_pdfs(urls, config):
-    """Converts a list of URLs to individual PDF files in a temporary directory."""
+
     if not os.path.exists(TEMP_DIR):
         os.makedirs(TEMP_DIR)
         print(f"Created temporary directory: '{TEMP_DIR}'")
